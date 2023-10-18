@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SchoolAid</title>
+  <script src="js/main.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<section class="center">
+  <div class="box">
+    <div class="container">
+      <form>
+        <div class="heading-container">
+          <h1>SchoolAid</h1>
+        </div>
+        <div class="inputBox">
+          <input type="text" placeholder="Benutzername" class="white-placeholder">
+        </div>
+        <div class="inputBox">
+          <input type="password" placeholder="Passwort" class="white-placeholder">
+        </div>
+        <div class="inputBox">
+          <!-- Ändern Sie den Input-Typ in "button" -->
+          <button type="button" class="submit center-button" id="loginButton">Login</button>
+        </div>
+        <p class="forget">Forgot Password? <a href="resetpw.html">Click Here</a></p>
+        <p class="forget">Don't have an Account? <a href="register.html">Sign up</a></p>
+      </form>
+    </div>
+  </div>
+  <!-- Vier Quadrate hinzufügen -->
+  <div class="square square1" style="--i:0;"></div>
+  <div class="square square2" style="--i:1;"></div>
+  <div class="square square3" style="--i:2;"></div>
+  <div class="square square4" style="--i:3;"></div>
+  <div class="square square5" style="--i:4;"></div>
+</section>
+
+<script>
+  // JavaScript, um auf "Login" zu klicken und zu home.html weiterzuleiten
+  document.getElementById('loginButton').addEventListener('click', function() {
+    // Hier können Sie die Weiterleitungs-URL anpassen
+    window.location.href = 'home.html';
+  });
+</script>
+</body>
+</html>
