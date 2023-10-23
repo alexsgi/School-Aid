@@ -115,3 +115,11 @@ body{
 .keys .key.action span {
   color: white;
 }
+.logo {
+  font-size: 40px;
+  width: 150px;
+  margin-top: 10px;
+  position: fixed;
+  top: 40px;
+  left: 50px;
+}

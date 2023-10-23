@@ -75,7 +75,6 @@ button:hover{
   background-color: #fff;
 }
 button{
-  border: none;
   outline: none;
   padding: .6em 1em;
   border-radius: 3px;
@@ -107,7 +106,14 @@ input[type="color"] {
   border: 3px solid white;
   accent-color: white;
 }
-.emoji{
+.logo {
   font-size: 40px;
-  padding-bottom: 10px;
+  width: 150px;
+  margin-top: 10px;
+  position: fixed;
+  top: 40px;
+  left: 100px;
 }
+
+
+

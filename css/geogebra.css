@@ -36,7 +36,7 @@ header
   top: -40px;
   right: 20px;
   left: 20px;
-  padding: 20px 50px;
+  padding: 10px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,6 +44,7 @@ header
   box-shadow: 0 15px 35px rgba(0,0,0,0.05);
   border-radius: 20px;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255,255,255,0.25);
   border-top: 1px solid rgba(255,255,255,0.5);
   border-left: 1px solid rgba(255,255,255,0.5);
@@ -51,9 +52,8 @@ header
 header .logo
 {
   color: #27408B;
-  font-weight: 700;
+  width: 160px;
   text-decoration: none;
-  font-size: 1.5em;
 }
 header ul{
   display: flex;
@@ -87,4 +87,52 @@ header ul li a.active
   50%{
     transform: translateY(100px);
   }
+}
+header ul li ul.dropdown1 li {
+  display: block;
+  margin-top: 10px;
+}
+header ul li ul.dropdown1 {
+  width: 100%;
+  background: none;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+header ul li:hover ul.dropdown1 {
+  display: block;
+}
+header ul li ul.dropdown2 li {
+  display: block;
+  margin-top: 10px;
+}
+header ul li ul.dropdown2 {
+  width: 100%;
+  background: none;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+header ul li:hover ul.dropdown2 {
+  display: block;
+}
+header ul li ul.dropdown3 li {
+  display: block;
+  margin-top: 10px;
+}
+header ul li ul.dropdown3 {
+  width: 100%;
+  background: none;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+header ul li:hover ul.dropdown3 {
+  display: block;
 }
