@@ -223,4 +223,20 @@ body{
   border-left: 1px solid rgba(255,255,255,0.5);
 
 }
+.back-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  background-color: #27408B;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #27408B;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  transform: scale(0.95);
+}
 

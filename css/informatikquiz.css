@@ -42,7 +42,7 @@ body{
 .quiz-score{
   text-align: right;
   font-size: 1.2rem;
-  border: 4px solid white;
+  border: 4px solid #27408B;
   font-weight: bold;
   width: 100px;
   height: 50px;
@@ -162,4 +162,20 @@ body{
   .quiz-foot button{
     font-size: 1rem;
   }
+}
+.back-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  background-color: #27408B;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #27408B;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  transform: scale(0.95);
 }
