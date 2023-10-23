@@ -7,7 +7,6 @@
   font-family: 'Julius Sans One', sans-serif;
 }
 body{
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,20 +15,7 @@ body{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-.border{
-  width: auto;
-  min-height: 300px;
-  background: rgba(255,255,255,0.5);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.05);
-  border-radius: 20px;
-  padding: 50px;
-}
-.container {
-  width: 600px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+
 }
 .container .btn{
   position: relative;
@@ -202,13 +188,14 @@ body{
        0 0 30px mediumpurple,
        0 0 60px mediumpurple;
      }
-
-.imgBx img
-{
-  width: 400px;
-  margin-left: -400px;
+.imgBx img {
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  right: 0;
   animation: animate 5s linear infinite;
 }
+
 @keyframes animate {
   0%,100%{
     transform: translateY(50px);
@@ -220,7 +207,7 @@ body{
 .sprechblase {
   position: absolute;
   top:10%;
-  left: 60px;
+  right: 150px;
   color: #27408B;
   padding: 15px;
   width: 200px;
@@ -236,3 +223,4 @@ body{
   border-left: 1px solid rgba(255,255,255,0.5);
 
 }
+
