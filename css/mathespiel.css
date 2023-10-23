@@ -41,6 +41,11 @@ body {
   color: #23234c;
   padding: 0.6em 2em;
 }
+.container #submit-btn:active {
+  transform: scale(0.85);
+
+}
+
 #error-msg {
   text-align: center;
   margin-top: 1em;
@@ -113,6 +118,10 @@ body {
   background: rgba(255,255,255,0.5);
   box-shadow: 0 15px 35px rgba(0,0,0,0.05);
   border-radius: 20px;
+}
+#start-btn:active{
+  transform: scale(0.85);
+
 }
 #result {
   margin-bottom: 1em;
