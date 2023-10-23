@@ -75,19 +75,6 @@ header ul li a.active
 {
   background: #fff;
 }
-.imgBx img
-{
-  max-width: 500px;
-  animation: animate 5s linear infinite;
-}
-@keyframes animate {
-  0%,100%{
-    transform: translateY(50px);
-  }
-  50%{
-    transform: translateY(100px);
-  }
-}
 header ul li ul.dropdown1 li {
   display: block;
   margin-top: 10px;

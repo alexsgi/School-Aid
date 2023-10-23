@@ -6,6 +6,9 @@
 }
 body{
   background: url(../img/hintergrund6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 
 }
 .app {
@@ -115,11 +118,97 @@ body{
 .keys .key.action span {
   color: white;
 }
-.logo {
-  font-size: 40px;
+header
+{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  left: 20px;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255,255,255,0.2);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+}
+header .logo
+{
+  color: #27408B;
   width: 150px;
   margin-top: 10px;
-  position: fixed;
-  top: 40px;
-  left: 50px;
+  text-decoration: none;
+}
+header ul{
+  display: flex;
+}
+header ul li{
+  list-style: none;
+  margin: 0 10px;
+  position: relative;
+}
+header ul li a{
+  text-decoration: none;
+  font-weight: 500;
+  color: #27408B;
+  padding: 8px 15px;
+  border-radius: 25px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+  background: #fff;
+}
+header ul li ul.dropdown1 li {
+  display: block;
+  margin-top: 10px;
+}
+header ul li ul.dropdown1 {
+  width: 100%;
+  background: none;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+header ul li:hover ul.dropdown1 {
+  display: block;
+}
+header ul li ul.dropdown2 li {
+  display: block;
+  margin-top: 10px;
+}
+header ul li ul.dropdown2 {
+  width: 100%;
+  background: none;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+header ul li:hover ul.dropdown2 {
+  display: block;
+}
+header ul li ul.dropdown3 li {
+  display: block;
+  margin-top: 10px;
+}
+header ul li ul.dropdown3 {
+  width: 100%;
+  background: none;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+header ul li:hover ul.dropdown3 {
+  display: block;
 }
