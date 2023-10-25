@@ -113,6 +113,8 @@ input[type="color"] {
   position: fixed;
   top: 40px;
   left: 100px;
+  transition: 0.5s;
+
 }
 .logo:hover{
   transition: 0.5s;

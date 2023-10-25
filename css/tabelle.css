@@ -232,6 +232,8 @@ thead th.active,tbody td.active {
   position: fixed;
   margin-left: 2%;
   margin-top: -1.5%;
+  transition: 0.5s;
+
 }
 .logo:hover{
   transition: 0.5s;

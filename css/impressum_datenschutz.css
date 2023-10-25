@@ -56,6 +56,8 @@ header .logo
   font-weight: 700;
   text-decoration: none;
   font-size: 1.5em;
+  transition: 0.5s;
+
 }
 header .logo:hover{
   transition: 0.5s;
