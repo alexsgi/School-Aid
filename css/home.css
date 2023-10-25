@@ -56,6 +56,12 @@ header .logo
   text-decoration: none;
   margin-top: 10px;
 }
+header .logo:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+
 header ul{
   display: flex;
 }
@@ -113,6 +119,11 @@ header ul li a.active
   text-decoration: none;
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
+.content a:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
 .imgBx img
 {
   max-width: 500px;
