@@ -78,6 +78,17 @@ header ul li a.active
 {
   background: #fff;
 }
+header .profil
+{
+  position: absolute;
+  margin-top: -12px;
+  width: 40px;
+  transition: 0.5s;
+}
+header .profil:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
 .content{
   transform: translateX(-100px);
   max-width: 700px;
@@ -339,9 +350,9 @@ footer a {
   color: inherit; /* Erbt die Textfarbe des Footers für Links */
 }
 
-
-
-
+.mehr {
+  color: #27408B;
+}
 
 
 
